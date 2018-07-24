@@ -4,5 +4,7 @@ function lowerCaseDrivers(drivers) {
 }
 
 function attributesToPhrase(drivers) {
-  return drivers.map( function(driver) { return driver.toLowerCase()} )
+  return drivers.map( function(driver) { return Object.assign({}, ) driver.toLowerCase()} )
 }
+
+ return Object.assign({}, account, { accessLevel: 'admin' })
