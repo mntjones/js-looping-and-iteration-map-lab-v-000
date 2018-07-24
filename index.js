@@ -11,7 +11,7 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(drivers) {
   const phrases = map(drivers, function(driver) { 
-    return "Object.assign( {}, driver, )";
+    return ""Object.assign( {}, driver, );
   })
 }
 
