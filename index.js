@@ -4,6 +4,11 @@ function lowerCaseDrivers(drivers) {
   return lowerDrivers;
 }
 
+
+function nameToAttributes(drivers) {
+  
+}
+
 function attributesToPhrase(drivers) {
   const phrases = map(drivers, function(driver) { 
     return Object.assign( {}, driver, );
