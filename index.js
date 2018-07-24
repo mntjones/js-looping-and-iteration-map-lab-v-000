@@ -6,7 +6,7 @@ function lowerCaseDrivers(drivers) {
 
 function attributesToPhrase(drivers) {
   const phrases = map(drivers, function(driver) { 
-    return Object.assign( {}, driver, { accessLevel: 'admin' });
+    return Object.assign( {}, driver, );
   })
 }
 
