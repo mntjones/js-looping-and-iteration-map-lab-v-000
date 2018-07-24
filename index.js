@@ -6,7 +6,10 @@ function lowerCaseDrivers(drivers) {
 
 
 function nameToAttributes(drivers) {
-  
+  const obj =[];
+  drivers.map(function(driver) {
+    
+  })
 }
 
 function attributesToPhrase(drivers) {
